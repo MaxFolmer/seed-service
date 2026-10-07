@@ -37,4 +37,5 @@ def db_check():
     cursor.close()
     conn.close()
 
+
     return {"status": "ok"}
