@@ -22,6 +22,7 @@ def read_root():
     return {"message": greeting}
 
 
+
 @app.get("/health")
 def health_check():
     return {"status": "ok"}
